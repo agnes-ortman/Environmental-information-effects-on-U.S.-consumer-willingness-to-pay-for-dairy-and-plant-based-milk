@@ -1,0 +1,1 @@
+# Environmental-information-effects-on-U.S.-consumer-willingness-to-pay-for-dairy-and-plant-based-milk
