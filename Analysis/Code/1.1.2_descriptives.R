@@ -53,7 +53,7 @@ create_summary_table <- function(data) {
       `Less than \\$25K` = format(round(mean(income  == 1, na.rm = TRUE) * 100, 1), nsmall = 1),
       `\\$25K-\\$50K` = format(round(mean(income == 2, na.rm = TRUE) * 100, 1), nsmall = 1),
       `\\$51K-\\$74K` = format(round(mean(income  == 3, na.rm = TRUE) * 100, 1), nsmall = 1),
-      `\\$71K-\\$99K` = format(round(mean(income  == 4, na.rm = TRUE) * 100, 1), nsmall = 1),
+      `\\$75K-\\$99K` = format(round(mean(income  == 4, na.rm = TRUE) * 100, 1), nsmall = 1),
       `\\$100K+` = format(round(mean(income == 5, na.rm = TRUE) * 100, 1), nsmall = 1),
       `Urban` = format(round(mean(urban == 1, na.rm = TRUE) * 100, 1), nsmall = 1),
       `Rural` = format(round(mean(rural == 1, na.rm = TRUE) * 100, 1), nsmall = 1),
